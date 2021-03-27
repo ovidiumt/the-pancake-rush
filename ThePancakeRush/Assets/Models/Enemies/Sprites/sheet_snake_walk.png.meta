@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: 09f26b550b2972f4ba2cdf54dcf79f65
+guid: 3dcf553d57de02b4490a6c3e92172587
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -673567884193123759
-    second: sheet_hero_walk_0
+      213: -6133695414165116094
+    second: sheet_snake_walk_0
   - first:
-      213: -5945894318411407256
-    second: sheet_hero_walk_1
+      213: -9177648269832160517
+    second: sheet_snake_walk_1
   - first:
-      213: -8983603564982645860
-    second: sheet_hero_walk_2
+      213: -1403795070182635076
+    second: sheet_snake_walk_2
+  - first:
+      213: -8048416715988785225
+    second: sheet_snake_walk_3
+  - first:
+      213: 3495478452254294393
+    second: sheet_snake_walk_4
+  - first:
+      213: -6037267311407423756
+    second: sheet_snake_walk_5
+  - first:
+      213: 3316498120333537040
+    second: sheet_snake_walk_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,34 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_hero_walk_0
+      name: sheet_snake_walk_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 152be8af39107a6f0800000000000000
-      internalID: -673567884193123759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_walk_1
-      rect:
-        serializedVersion: 2
-        x: 79
+        x: 19
         y: 0
-        width: 30
-        height: 28
+        width: 26
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 860231fbe90fb7da0800000000000000
-      internalID: -5945894318411407256
+      spriteID: 24bee3eb48cb0eaa0800000000000000
+      internalID: -6133695414165116094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_walk_2
+      name: sheet_snake_walk_1
       rect:
         serializedVersion: 2
-        x: 143
+        x: 87
         y: 0
-        width: 28
-        height: 31
+        width: 25
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +155,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bc642a724d35380800000000000000
-      internalID: -8983603564982645860
+      spriteID: bfafc2b168172a080800000000000000
+      internalID: -9177648269832160517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9c15042d7b48ce0800000000000000
+      internalID: -1403795070182635076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b72c2f93a74e4090800000000000000
+      internalID: -8048416715988785225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97146aae12f628030800000000000000
+      internalID: 3495478452254294393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe9b79fd51573ca0800000000000000
+      internalID: -6037267311407423756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2bb80871960e20800000000000000
+      internalID: 3316498120333537040
       vertices: []
       indices: 
       edges: []
@@ -173,7 +269,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bafa3632454c48e40917dc52314370cd
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
