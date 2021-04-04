@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 189858337}
   - component: {fileID: 189858336}
   - component: {fileID: 189858335}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bomber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 241844197}
   - component: {fileID: 241844196}
   - component: {fileID: 241844195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Snake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 323261444}
   - component: {fileID: 323261443}
   - component: {fileID: 323261446}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1085,7 +1085,7 @@ GameObject:
   - component: {fileID: 433773289}
   - component: {fileID: 433773290}
   - component: {fileID: 433773291}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Goblin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1100,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433773285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.744, y: -1.344, z: 0}
+  m_LocalPosition: {x: -0.801, y: -1.344, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 586522134}
@@ -1523,7 +1523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 586522134}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2370,7 +2370,7 @@ GameObject:
   - component: {fileID: 1798702130}
   - component: {fileID: 1798702129}
   - component: {fileID: 1798702132}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
