@@ -7,6 +7,11 @@ public class Slime_hit : MonoBehaviour
 
 	public Animator animator;
 
+    //Layers
+    private int Player = 8;
+    private int Enemies = 9;
+    public AnimationClip animation;
+
 	public int viataMaxima = 100;
 	int viataRamasa;
     // Start is called before the first frame update
@@ -22,6 +27,7 @@ public class Slime_hit : MonoBehaviour
 
     	if(viataRamasa <= 0){
     		Moarte();
+            Destroy (gameObject, animation.length); 
     	}
     }
 
@@ -32,7 +38,7 @@ public class Slime_hit : MonoBehaviour
     	animator.SetBool("esteMort",true);
     
     	//Disable inamic
-    	GetComponent<Collider2D>().enabled = false;
+    	Physics2D.IgnoreLayerCollision(Player,Enemies,true);
     	this.enabled = false;
     }
 

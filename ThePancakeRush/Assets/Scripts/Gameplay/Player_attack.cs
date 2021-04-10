@@ -14,6 +14,16 @@ public class Player_attack : MonoBehaviour
 
  	public float rataDeAtac = 2f;
  	float timpulPanaLaUrmatorulAtac = 0f;
+ 	public Healthbar baraDeViata;
+ 	public int viataRamasa;
+ 	public int viataMaxima = 500;
+
+ 	void Start(){
+ 		viataRamasa = viataMaxima;
+ 		baraDeViata.SeteazaViataMaxima(viataMaxima);
+ 	}
+
+
     // Update is called once per frame
     void Update()
     {
@@ -23,6 +33,15 @@ public class Player_attack : MonoBehaviour
 				timpulPanaLaUrmatorulAtac = Time.time + 2f / rataDeAtac;
 			}        
 		}
+
+		if(Input.GetKeyDown(KeyCode.Q)){
+			esteLovit(20);
+		}
+    }
+
+    void esteLovit(int valoareLovitura){
+    	viataRamasa -= valoareLovitura;
+    	baraDeViata.SeteazaViata(viataRamasa);
     }
 
     void Attack(){
