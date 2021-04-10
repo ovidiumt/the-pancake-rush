@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 189858336}
   - component: {fileID: 189858335}
   - component: {fileID: 189858339}
+  - component: {fileID: 189858340}
   m_Layer: 10
   m_Name: Bomber
   m_TagString: Untagged
@@ -504,6 +505,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 617390935}
   isFlipped: 0
+--- !u!114 &189858340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189858333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804f3d29bffb8a741bdfba719121d149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 275223934}
+  bombPrefab: {fileID: 4438822560959559161, guid: 6754ab444c9d0574e85a7be77e302dd9,
+    type: 3}
+  attackRange: 2
+  attackDelay: 1.5
 --- !u!1 &241844189
 GameObject:
   m_ObjectHideFlags: 0
