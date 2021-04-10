@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 63a76fca2cc4b474aa5055888abbf50b
+guid: fe3021143134abb48adeed950740e8e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4690483604511002119
-    second: sheet_hero_jump_0
+      213: 5700571365488146070
+    second: slime_hit_anim_strip_3_0
   - first:
-      213: -2315764407743020845
-    second: sheet_hero_jump_1
+      213: -2615309591851497
+    second: slime_hit_anim_strip_3_1
   - first:
-      213: 2902098914976271219
-    second: sheet_hero_jump_2
-  - first:
-      213: 4760980444760362849
-    second: sheet_hero_jump_3
-  - first:
-      213: -2835227724877806697
-    second: sheet_hero_jump_4
+      213: -9085390894938971011
+    second: slime_hit_anim_strip_3_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,13 +108,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_hero_jump_0
+      name: slime_hit_anim_strip_3_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 2
         y: 0
-        width: 29
-        height: 28
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +122,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e0cafacf1f71140800000000000000
-      internalID: 4690483604511002119
+      spriteID: 6963fa8347f7c1f40800000000000000
+      internalID: 5700571365488146070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_jump_1
+      name: slime_hit_anim_strip_3_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 2
-        width: 28
-        height: 33
+        x: 18
+        y: 0
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d00cf46a80ccdfd0800000000000000
-      internalID: -2315764407743020845
+      spriteID: 71eccc8c365b6fff0800000000000000
+      internalID: -2615309591851497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_jump_2
+      name: slime_hit_anim_strip_3_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 7
-        width: 30
-        height: 31
+        x: 35
+        y: 0
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,50 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37b05325693564820800000000000000
-      internalID: 2902098914976271219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_jump_3
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 9
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16fc5806d76621240800000000000000
-      internalID: 4760980444760362849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_jump_4
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 10
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 793c159e76f37a8d0800000000000000
-      internalID: -2835227724877806697
+      spriteID: d7428951e153ae180800000000000000
+      internalID: -9085390894938971011
       vertices: []
       indices: 
       edges: []
