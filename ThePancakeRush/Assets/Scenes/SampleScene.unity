@@ -1158,8 +1158,6 @@ MonoBehaviour:
   firePoint: {fileID: 950553442}
   bombPrefab: {fileID: 4438822560959559161, guid: 6754ab444c9d0574e85a7be77e302dd9,
     type: 3}
-  attackRange: 2
-  attackDelay: 1.5
 --- !u!114 &363618033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1855,7 +1853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617390933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.443, y: -1.344, z: 0}
+  m_LocalPosition: {x: -3.69, y: -1.356, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
   - {fileID: 479020253}
