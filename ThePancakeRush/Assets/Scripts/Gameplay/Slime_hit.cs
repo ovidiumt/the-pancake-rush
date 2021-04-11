@@ -11,7 +11,7 @@ public class Slime_hit : MonoBehaviour
 
     //Layers
     private int Player = 8;
-    private int Enemies = 9;
+    private int Enemies = 10;
     public AnimationClip animation;
 
     public Healthbar baraDeViataSlime;

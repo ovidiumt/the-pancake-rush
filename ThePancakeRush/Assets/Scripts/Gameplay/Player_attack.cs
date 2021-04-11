@@ -7,7 +7,7 @@ public class Player_attack : MonoBehaviour
  	public Animator animator;
  	public AnimationClip animation;
  	private int Player = 8;
-    private int Enemies = 9;
+    private int Enemies = 10;
 
  	public Transform punctDeAtac;
  	public float razaDeAtac = 0.5f;
