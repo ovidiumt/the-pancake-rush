@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class Player_attack : MonoBehaviour
 {
@@ -69,7 +70,13 @@ public class Player_attack : MonoBehaviour
 		Collider2D[] inamiciLoviti  =  Physics2D.OverlapCircleAll(punctDeAtac.position, razaDeAtac, feluriDeInamici);
 
 		//loveste inamicii
-		foreach(Collider2D inamic in inamiciLoviti) inamic.GetComponent<Slime_hit>().TakeDamage(valoareLovitura);
+		foreach(Collider2D inamic in inamiciLoviti){
+			if(inamic.gameObject.name == "Slime") inamic.GetComponent<Slime_hit>().TakeDamage(valoareLovitura);
+			else if(inamic.gameObject.name == "Goblin") inamic.GetComponent<Goblin_hit>().TakeDamage(valoareLovitura);
+			else if(inamic.gameObject.name == "Snake") inamic.GetComponent<Snake_hit>().TakeDamage(valoareLovitura);
+			else if(inamic.gameObject.name == "Bomber") inamic.GetComponent<Bomber_hit>().TakeDamage(valoareLovitura);
+			else if(inamic.gameObject.name == "Bird") inamic.GetComponent<Bird_hit>().TakeDamage(valoareLovitura);
+		}
     }
 
     void OnDrawGizmosSelected(){
