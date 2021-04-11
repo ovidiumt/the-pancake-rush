@@ -5,6 +5,9 @@ using UnityEngine;
 public class Player_attack : MonoBehaviour
 {
  	public Animator animator;
+ 	public AnimationClip animation;
+ 	private int Player = 8;
+    private int Enemies = 9;
 
  	public Transform punctDeAtac;
  	public float razaDeAtac = 0.5f;
@@ -34,15 +37,29 @@ public class Player_attack : MonoBehaviour
 			}        
 		}
 
-		if(Input.GetKeyDown(KeyCode.Q)){
-			esteLovit(20);
-		}
     }
 
-    void esteLovit(int valoareLovitura){
+    public void esteLovit(int valoareLovitura){
     	viataRamasa -= valoareLovitura;
     	baraDeViata.SeteazaViata(viataRamasa);
+
+    	animator.SetTrigger("esteLovit");
+
+    	if(viataRamasa <= 0){
+    		Moarte();
+            Destroy (gameObject, animation.length); 
+    	}
     }
+
+    void Moarte(){
+    	//Animatia de moarte
+    	animator.SetBool("esteMort",true);
+    
+    	//Disable inamic
+    	Physics2D.IgnoreLayerCollision(Enemies,Player,true);
+    	this.enabled = false;
+    }
+
 
     void Attack(){
     	//porneste animatia cand este apasat butonul

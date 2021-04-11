@@ -32,7 +32,6 @@ public class Slime_hit : MonoBehaviour
     }
 
     void Moarte(){
-    	Debug.Log("Inamicul a murit");
 
     	//Animatia de moarte
     	animator.SetBool("esteMort",true);
