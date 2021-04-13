@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-
+    public Animator animator;
+    public AnimationClip animation;
     public float speed = 10f;
     public Rigidbody2D rb;
     Transform player;
@@ -19,6 +20,8 @@ public class Bomb : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        Destroy(gameObject);
+        rb.velocity = new Vector2(0,0);
+        animator.SetTrigger("Hit");
+        Destroy(gameObject,animation.length);
     }
 }

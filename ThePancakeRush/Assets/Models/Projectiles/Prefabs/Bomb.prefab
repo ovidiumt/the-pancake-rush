@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 550455158238361703}
   - component: {fileID: 5118197880295836874}
   - component: {fileID: -3788938693627009961}
+  - component: {fileID: 7508201361770423863}
   m_Layer: 11
   m_Name: Bomb
   m_TagString: Untagged
@@ -133,5 +134,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ce104e62456df43b96e4d8df6a958b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 7508201361770423863}
+  animation: {fileID: 7400000, guid: dea2c1e12a4d2c040854afba0d97d825, type: 2}
   speed: 4
   rb: {fileID: 550455158238361703}
+--- !u!95 &7508201361770423863
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4438822560959559161}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 52b110f957f5a6248be53f58e169b941, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
