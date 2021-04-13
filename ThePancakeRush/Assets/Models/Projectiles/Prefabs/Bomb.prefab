@@ -134,6 +134,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ce104e62456df43b96e4d8df6a958b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPoint: {fileID: 0}
+  attackRange: 0.5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  attackValue: 40
   animator: {fileID: 7508201361770423863}
   animation: {fileID: 7400000, guid: dea2c1e12a4d2c040854afba0d97d825, type: 2}
   speed: 4
