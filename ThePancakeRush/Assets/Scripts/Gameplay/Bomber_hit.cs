@@ -8,8 +8,8 @@ public class Bomber_hit : MonoBehaviour
 	public Animator animator;
 
     //Layers
-    private int Player = 8;
-    private int Enemies = 10;
+    public Transform Player;
+    public Transform Bomber;
     public AnimationClip animation;
 
     public Healthbar baraDeViataBomber;
@@ -44,7 +44,7 @@ public class Bomber_hit : MonoBehaviour
     	animator.SetBool("esteMort",true);
     
     	//Disable inamic
-    	Physics2D.IgnoreLayerCollision(Player,Enemies,true);
+    	Physics2D.IgnoreCollision(Player.GetComponent<CircleCollider2D>(),Bomber.GetComponent<BoxCollider2D>(),true);
     	this.enabled = false;
     }
 

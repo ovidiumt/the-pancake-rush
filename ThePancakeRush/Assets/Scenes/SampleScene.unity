@@ -600,7 +600,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 7
+  m_Constraints: 6
 --- !u!212 &241844193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -775,6 +775,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 241844194}
+  Player: {fileID: 617390935}
+  Snake: {fileID: 241844190}
   animation: {fileID: 7400000, guid: c8db5ac9a1ccfda48acc6f7f1135006c, type: 2}
   baraDeViataSnake: {fileID: 203701227}
   viataMaxima: 100
@@ -1031,6 +1033,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 323261442}
+  Player: {fileID: 617390935}
+  Bird: {fileID: 323261438}
   animation: {fileID: 7400000, guid: 2b7c84bb6f4c7f54abd85f7e3f7e83a3, type: 2}
   baraDeViataBird: {fileID: 1972943116}
   viataMaxima: 100
@@ -1248,6 +1252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 363618034}
+  Player: {fileID: 617390935}
+  Bomber: {fileID: 363618029}
   animation: {fileID: 7400000, guid: ff20003a1d2de834089eba40799bf8e4, type: 2}
   baraDeViataBomber: {fileID: 1375385487}
   viataMaxima: 100
@@ -1269,6 +1275,7 @@ GameObject:
   - component: {fileID: 433773290}
   - component: {fileID: 433773291}
   - component: {fileID: 433773295}
+  - component: {fileID: 433773296}
   m_Layer: 10
   m_Name: Goblin
   m_TagString: Untagged
@@ -1288,6 +1295,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 152180159}
+  - {fileID: 1082406929}
   m_Father: {fileID: 1276600710}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1407,7 +1415,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 7
+  m_Constraints: 6
 --- !u!114 &433773291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1513,9 +1521,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 433773288}
+  Player: {fileID: 617390935}
+  Goblin: {fileID: 433773286}
   animation: {fileID: 7400000, guid: f6fa6ba392b790e40bcd769abf95f44c, type: 2}
   baraDeViataGoblin: {fileID: 645072760}
   viataMaxima: 200
+--- !u!114 &433773296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433773285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39b2a0b080d94840b7ac2f09bd933a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPoint: {fileID: 1082406929}
+  attackRange: 0.035
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  attackValue: 40
+  attackRate: 2
+  goblinHealthbar: {fileID: 645072760}
+  leftHealth: 0
+  maxHealth: 200
 --- !u!1 &479020252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,7 +1903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617390933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.69, y: -1.356, z: 0}
+  m_LocalPosition: {x: -3.7081, y: -1.337, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
   - {fileID: 479020253}
@@ -1953,9 +1985,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02060628, y: -0.017479375}
+  m_Offset: {x: 0.02060628, y: -0.019681275}
   serializedVersion: 2
-  m_Radius: 0.123266146
+  m_Radius: 0.12556583
 --- !u!114 &617390939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,7 +2045,7 @@ MonoBehaviour:
   rataDeAtac: 8
   baraDeViata: {fileID: 761705200}
   viataRamasa: 0
-  viataMaxima: 200
+  viataMaxima: 500
 --- !u!1 &645072758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,6 +2572,36 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 323261438}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1082406928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082406929}
+  m_Layer: 10
+  m_Name: goblinAttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1082406929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082406928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.074, y: -0.019, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433773286}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120917436
@@ -3690,6 +3752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1792664506}
+  Player: {fileID: 617390935}
+  Slime: {fileID: 1792664508}
   animation: {fileID: 7400000, guid: fc1e04a41a8f5884089d30dcff54c372, type: 2}
   baraDeViataSlime: {fileID: 1519129466}
   viataMaxima: 100

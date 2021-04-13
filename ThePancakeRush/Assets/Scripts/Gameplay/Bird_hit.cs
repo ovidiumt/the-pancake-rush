@@ -7,9 +7,8 @@ public class Bird_hit : MonoBehaviour
 {
   	public Animator animator;
 
-    //Layers
-    private int Player = 8;
-    private int Enemies = 10;
+    public Transform Player;
+    public Transform Bird;
     public AnimationClip animation;
 
     public Healthbar baraDeViataBird;
@@ -39,7 +38,7 @@ public class Bird_hit : MonoBehaviour
     void Moarte(){
 
     	//Disable inamic
-    	Physics2D.IgnoreLayerCollision(Player,Enemies,true);
+    	Physics2D.IgnoreCollision(Player.GetComponent<CircleCollider2D>(),Bird.GetComponent<CircleCollider2D>(),true);
     	this.enabled = false;
     }
 }

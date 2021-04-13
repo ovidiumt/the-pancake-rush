@@ -3,45 +3,50 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Snake_hit : MonoBehaviour
+public class Goblin_hit : MonoBehaviour
 {
-  	public Animator animator;
+
+	public Animator animator;
 
     //Layers
-    private int Player = 8;
-    private int Enemies = 10;
+    public Transform Player;
+    public Transform Goblin;
     public AnimationClip animation;
 
-    public Healthbar baraDeViataSnake;
+    public Healthbar baraDeViataGoblin;
 	public int viataMaxima = 100;
 	int viataRamasa;
     // Start is called before the first frame update
     void Start()
     {
         viataRamasa = viataMaxima;
-        baraDeViataSnake.SeteazaViataMaxima(viataMaxima);
-        baraDeViataSnake.gameObject.SetActive(false);
+        baraDeViataGoblin.SeteazaViataMaxima(viataMaxima);
+        baraDeViataGoblin.gameObject.SetActive(false);
     }
 
     public void TakeDamage(int lovitura){
-         baraDeViataSnake.gameObject.SetActive(true);
+         baraDeViataGoblin.gameObject.SetActive(true);
 
     	viataRamasa -= lovitura;
-        baraDeViataSnake.SeteazaViata(viataRamasa);
+        baraDeViataGoblin.SeteazaViata(viataRamasa);
 
     	animator.SetTrigger("esteLovit");
 
     	if(viataRamasa <= 0){
     		Moarte();
-            Destroy (baraDeViataSnake.gameObject);
+            Destroy (baraDeViataGoblin.gameObject);
             Destroy (gameObject, animation.length); 
     	}
     }
 
     void Moarte(){
+
+    	//Animatia de moarte
+    	animator.SetBool("esteMort",true);
     
     	//Disable inamic
-    	Physics2D.IgnoreLayerCollision(Player,Enemies,true);
+    	Physics2D.IgnoreCollision(Player.GetComponent<CircleCollider2D>(),Goblin.GetComponent<BoxCollider2D>(),true);
     	this.enabled = false;
     }
+
 }
