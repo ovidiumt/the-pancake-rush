@@ -119,18 +119,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -180,9 +168,9 @@ TextureImporter:
       name: tiki_torch_props_strip_12_2
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 0
-        width: 7
+        width: 8
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
