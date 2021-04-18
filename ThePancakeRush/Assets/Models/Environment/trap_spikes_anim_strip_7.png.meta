@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: 09f26b550b2972f4ba2cdf54dcf79f65
+guid: 2e3257a295418bc4d862dd964259eb70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -673567884193123759
-    second: sheet_hero_walk_0
+      213: -8885591865320820619
+    second: trap_spikes_anim_strip_7_0
   - first:
-      213: -5945894318411407256
-    second: sheet_hero_walk_1
+      213: -1304801756163347081
+    second: trap_spikes_anim_strip_7_1
   - first:
-      213: -8983603564982645860
-    second: sheet_hero_walk_2
+      213: -1598456901103748824
+    second: trap_spikes_anim_strip_7_2
+  - first:
+      213: -3464295679467659869
+    second: trap_spikes_anim_strip_7_3
+  - first:
+      213: 1729303807773597151
+    second: trap_spikes_anim_strip_7_4
+  - first:
+      213: 569313857058810836
+    second: trap_spikes_anim_strip_7_5
+  - first:
+      213: 365545335610814544
+    second: trap_spikes_anim_strip_7_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_hero_walk_0
+      name: trap_spikes_anim_strip_7_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1
-        width: 29
-        height: 30
+        x: 0
+        y: 13
+        width: 16
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 152be8af39107a6f0800000000000000
-      internalID: -673567884193123759
+      spriteID: 570b370c64900b480800000000000000
+      internalID: -8885591865320820619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_walk_1
+      name: trap_spikes_anim_strip_7_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 30
-        height: 28
+        x: 16
+        y: 13
+        width: 16
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 860231fbe90fb7da0800000000000000
-      internalID: -5945894318411407256
+      spriteID: 77de39547b964ede0800000000000000
+      internalID: -1304801756163347081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_walk_2
+      name: trap_spikes_anim_strip_7_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 0
-        width: 28
-        height: 31
+        x: 32
+        y: 9
+        width: 16
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +176,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bc642a724d35380800000000000000
-      internalID: -8983603564982645860
+      spriteID: 82970fcdae321d9e0800000000000000
+      internalID: -1598456901103748824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trap_spikes_anim_strip_7_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3add8642f695cefc0800000000000000
+      internalID: -3464295679467659869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trap_spikes_anim_strip_7_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd5313a6a8bff710800000000000000
+      internalID: 1729303807773597151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trap_spikes_anim_strip_7_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dba2b7cfeb96e700800000000000000
+      internalID: 569313857058810836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trap_spikes_anim_strip_7_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0503266cb8da21500800000000000000
+      internalID: 365545335610814544
       vertices: []
       indices: 
       edges: []
