@@ -24,23 +24,15 @@ public class Bomb : MonoBehaviour
         rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
     }
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D p)
     {
-        Attack();
+        if(p.gameObject.tag == "Player"){
+            p.GetComponent<Player_attack>().esteLovit(attackValue);
+        }
 
         rb.velocity = new Vector2(0,0);
         animator.SetTrigger("Hit");
         Destroy(gameObject,animation.length);
-    }
-
-
-    public void Attack(){
-        Collider2D[] pl  =  Physics2D.OverlapCircleAll(player.position, attackRange, playerLayer);
-
-        //loveste inamicii
-        foreach(Collider2D p in pl){
-            p.GetComponent<Player_attack>().esteLovit(attackValue);
-        }
     }
 
 }
