@@ -6,17 +6,30 @@ public class Bird_Shoot : MonoBehaviour
 {
     private float lastAttackTime;
     public float attackDelay;
+    public float attackRange;
 
     public Transform firePoint;
     public GameObject bombPrefab;
+    Transform player;
+    Rigidbody2D rb;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > lastAttackTime + attackDelay)
+        if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {
-            Shoot();
-            lastAttackTime = Time.time;
+            if (Time.time > lastAttackTime + attackDelay)
+            {
+                Shoot();
+                lastAttackTime = Time.time;
+            }
         }
     }
 
