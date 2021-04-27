@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
+
+    public static int scoreValue = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,7 +15,7 @@ public class Collectable : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-    	ScoreScript.scoreValue += 1;
+        ScoreScript.scoreValue += 1;
         Destroy(gameObject);
     }
 }
