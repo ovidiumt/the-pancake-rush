@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4547810341211551698}
   - component: {fileID: 3028436943744533374}
   - component: {fileID: 4022233805480789210}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Flour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
