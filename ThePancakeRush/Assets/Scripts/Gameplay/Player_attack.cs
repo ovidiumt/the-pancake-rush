@@ -52,6 +52,16 @@ public class Player_attack : MonoBehaviour
     	}
     }
 
+    public void setLife(int value){
+        if(viataRamasa + value < viataMaxima){
+            viataRamasa += value;
+            baraDeViata.SeteazaViata(viataRamasa);
+        }else{
+            viataRamasa = viataMaxima;
+            baraDeViata.SeteazaViata(viataRamasa);
+        }
+    }
+
     void Moarte(){
     	//Animatia de moarte
     	animator.SetBool("esteMort",true);
