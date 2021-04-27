@@ -12,6 +12,7 @@ public class Collectable : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+    	ScoreScript.scoreValue += 1;
         Destroy(gameObject);
     }
 }
