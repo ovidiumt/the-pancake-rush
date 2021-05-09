@@ -7,9 +7,19 @@ public class AudioManager : MonoBehaviour
 	public Sounds[] sounds;
 	public Transform player;
 	private bool is_Playingsecond = false, is_Playingfirst = false;
+
+	public static AudioManager instance;
     // Start is called before the first frame update
     void Awake()
-    {
+    {	
+
+    	if(instance == null) instance = this;
+    	else {
+    		Destroy(gameObject);
+    		return;
+    	}
+    	DontDestroyOnLoad(gameObject);
+
         foreach(Sounds s in sounds){
         	s.source = gameObject.AddComponent<AudioSource>();
         	s.source.clip = s.clip;

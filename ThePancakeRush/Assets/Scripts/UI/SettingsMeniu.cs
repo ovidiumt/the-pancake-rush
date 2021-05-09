@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -9,6 +10,7 @@ public class SettingsMeniu : MonoBehaviour
 
 	Resolution[] resolutions;
 	public TMP_Dropdown resolutionsDropDownMeniu;
+	public AudioMixer audioMixer;
 
 	void Start(){
 		int userResolutionIndex = 0;
@@ -34,16 +36,15 @@ public class SettingsMeniu : MonoBehaviour
 		resolutionsDropDownMeniu.RefreshShownValue();
 	}
 
+	public void SetVolume(float volume){
+		audioMixer.SetFloat("volume", volume);
+	}
+
 	public void SetResolution(int resolutionIndex){
 		Resolution resolution = resolutions[resolutionIndex];
 
 		Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
 	}
-
-	//ramane de implementat dupa ce adaugam audio in joc
- 	public void SetVolume(float volume){
- 		Debug.Log(volume);
- 	}
 
  	public void setFullScreen(bool isFullScreen){
  		Screen.fullScreen = isFullScreen;

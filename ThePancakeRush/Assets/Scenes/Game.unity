@@ -263,6 +263,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 72179246}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &86759417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 86759418}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &86759418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86759417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001, y: -0.003, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 322667562}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &93181534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3473,6 +3503,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &279105280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 279105281}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &279105281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279105280}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.006, y: -0.003, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1584006576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &281828429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4231,6 +4291,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
+      propertyPath: width
+      value: 3.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
       propertyPath: razaDeAtac
       value: 0.5
       objectReference: {fileID: 0}
@@ -4238,7 +4308,7 @@ PrefabInstance:
         type: 3}
       propertyPath: SpykePointDamage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 86759418}
     - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: playerLayer.m_Bits
@@ -5789,6 +5859,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 1269424616}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -6869,6 +6954,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &459491519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459491520}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459491520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459491519}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.003, y: -0.001, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 679395937}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &467114688
 GameObject:
   m_ObjectHideFlags: 0
@@ -10597,6 +10712,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 459491520}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -13663,6 +13793,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 1159963115}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -13993,7 +14138,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: CaveTheme
     clip: {fileID: 8300000, guid: 4757d04b9a43dda4a8749db0fc0b88e4, type: 3}
-    volume: 1
+    volume: 0.185
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -14190,6 +14335,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9f536a57ab84f4438bb4af7fd19c280, type: 3}
+--- !u!1 &948051835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 948051836}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &948051836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948051835}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.001, y: -0.004, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1983482016}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &953828956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14197,6 +14372,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 2078638976}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -17986,6 +18176,36 @@ Transform:
   m_Father: {fileID: 991143393}
   m_RootOrder: 232
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1159963114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159963115}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1159963115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159963114}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.007, y: -0.006, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 878595444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160124899
 GameObject:
   m_ObjectHideFlags: 0
@@ -18830,6 +19050,36 @@ Transform:
   m_Father: {fileID: 991143393}
   m_RootOrder: 217
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1219694723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219694724}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1219694724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219694723}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.006, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1221874421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1221874420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18837,6 +19087,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 1219694724}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -19846,6 +20111,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 991143393}
   m_RootOrder: 99
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1269424615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269424616}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1269424616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269424615}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.002, y: -0.003, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404241180}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1270377230
 GameObject:
@@ -21180,6 +21475,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 11.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 1970489893}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -24804,6 +25114,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 279105281}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -31869,6 +32194,36 @@ Transform:
   m_Father: {fileID: 991143393}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1970489892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970489893}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970489893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970489892}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.002, y: -0.0011005402, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1349681929}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1971175486
 GameObject:
   m_ObjectHideFlags: 0
@@ -31985,6 +32340,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 948051836}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -33015,6 +33385,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2006510813}
     m_Modifications:
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: width
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: height
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: razaDeAtac
+      value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: SpykePointDamage
+      value: 
+      objectReference: {fileID: 2038821120}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -33058,7 +33448,7 @@ PrefabInstance:
     - target: {fileID: 4560295824665937254, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 524.80786
+      value: 4.659851
       objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937254, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
@@ -33123,6 +33513,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2026492730}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2038821119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038821120}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2038821120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038821119}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.013999939, y: -0.010000169, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2026492731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2053466570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33297,6 +33717,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2078638975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2078638976}
+  m_Layer: 0
+  m_Name: SpikePointDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2078638976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078638975}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.004, y: -0.003, z: -5.1052856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 953828957}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2089681842 stripped
 Transform:
