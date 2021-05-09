@@ -5874,6 +5874,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 1269424616}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -10727,6 +10732,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 459491520}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -13808,6 +13818,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 1159963115}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -14387,6 +14402,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 2078638976}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -19102,6 +19122,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 1219694724}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -21490,6 +21515,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 1970489893}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -25129,6 +25159,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 279105281}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -32355,6 +32390,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 948051836}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
@@ -33405,6 +33445,11 @@ PrefabInstance:
       propertyPath: SpykePointDamage
       value: 
       objectReference: {fileID: 2038821120}
+    - target: {fileID: 1546778072344498812, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4560295824665937253, guid: b896d2c8c5983614380c2b83bbe5bd1e,
         type: 3}
       propertyPath: m_Size.x
