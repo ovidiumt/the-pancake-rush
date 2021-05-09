@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4560295824665937254}
   - component: {fileID: 4560295824665937255}
-  - component: {fileID: 4560295824665937252}
   - component: {fileID: 4560295824665937253}
   - component: {fileID: 1546778072344498812}
   m_Layer: 0
@@ -28,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4560295824665937274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.932201, y: -27.031948, z: -515.48816}
+  m_LocalPosition: {x: -8.932201, y: -27.031948, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,27 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4560295824665937252
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4560295824665937274}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &4560295824665937253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c702cd6ab292e4fa3fb483b6e90790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpykePointDamage: {fileID: 0}
+  width: 0
+  height: 0
+  valoareLovitura: 20
+  rataDeAtac: 2
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0

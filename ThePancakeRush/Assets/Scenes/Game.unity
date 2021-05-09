@@ -272,7 +272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 86759418}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,12 +639,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &114986308 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7413654282843596913, guid: bd9e222f3a51fd44089fa9513f484b3d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2053466570}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &124410937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,7 +3506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279105281}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4413,6 +4407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
@@ -5979,6 +5978,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
 --- !u!4 &404241180 stripped
@@ -6968,7 +6972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459491520}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7470,6 +7474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suspended_Trap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585551127845195062, guid: 71461cebec2653e4a8b34fd4fe743aab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2763643846580895176, guid: 71461cebec2653e4a8b34fd4fe743aab,
         type: 3}
@@ -10017,6 +10026,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suspended_Trap
       objectReference: {fileID: 0}
+    - target: {fileID: 2585551127845195062, guid: 71461cebec2653e4a8b34fd4fe743aab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 2763643846580895176, guid: 71461cebec2653e4a8b34fd4fe743aab,
         type: 3}
       propertyPath: m_RootOrder
@@ -10836,6 +10850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
@@ -13923,6 +13942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
 --- !u!4 &878595444 stripped
@@ -14359,7 +14383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 948051836}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14506,6 +14530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
@@ -15817,6 +15846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suspended_Trap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585551127845195062, guid: 71461cebec2653e4a8b34fd4fe743aab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2763643846580895176, guid: 71461cebec2653e4a8b34fd4fe743aab,
         type: 3}
@@ -18205,7 +18239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1159963115}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19079,7 +19113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1219694724}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19226,6 +19260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
@@ -20146,7 +20185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1269424616}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20304,7 +20343,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1792664508}
-  - {fileID: 114986308}
+  - {fileID: 1623276843}
   - {fileID: 1515360800}
   - {fileID: 354464827}
   - {fileID: 1176350209}
@@ -21619,6 +21658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
@@ -25264,6 +25308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
 --- !u!4 &1584006576 stripped
@@ -25708,6 +25757,12 @@ Transform:
   m_Father: {fileID: 991143393}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1623276843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7686136162848423094, guid: bd9e222f3a51fd44089fa9513f484b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2053466570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1638259883
 GameObject:
   m_ObjectHideFlags: 0
@@ -32238,7 +32293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1970489893}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32494,6 +32549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
@@ -32948,7 +33008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2006510813}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Traps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33550,6 +33610,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 4560295824665937274, guid: b896d2c8c5983614380c2b83bbe5bd1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b896d2c8c5983614380c2b83bbe5bd1e, type: 3}
 --- !u!4 &2026492731 stripped
@@ -33567,7 +33632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2038821120}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33695,6 +33760,21 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7686136162848423094, guid: bd9e222f3a51fd44089fa9513f484b3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7686136164099134101, guid: bd9e222f3a51fd44089fa9513f484b3d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7686136164099134101, guid: bd9e222f3a51fd44089fa9513f484b3d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd9e222f3a51fd44089fa9513f484b3d, type: 3}
 --- !u!1 &2069292790
@@ -33772,7 +33852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2078638976}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpikePointDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
