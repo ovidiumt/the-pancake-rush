@@ -33099,7 +33099,7 @@ GameObject:
   - component: {fileID: 1865347003}
   - component: {fileID: 1865347002}
   - component: {fileID: 1865347001}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
