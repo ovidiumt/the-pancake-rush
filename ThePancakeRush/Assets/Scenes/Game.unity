@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 124433489}
   - component: {fileID: 124433491}
   - component: {fileID: 124433490}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +978,7 @@ GameObject:
   - component: {fileID: 143805430}
   - component: {fileID: 143805431}
   - component: {fileID: 143805432}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 154247208}
   - component: {fileID: 154247207}
   - component: {fileID: 154247206}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1897,7 +1897,7 @@ GameObject:
   - component: {fileID: 194876101}
   - component: {fileID: 194876100}
   - component: {fileID: 194876099}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2420,9 +2420,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941055119863724189, guid: 4ca3628efcffd4f4e91edf7db85754c5,
         type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 617390935}
+    - target: {fileID: 4941055119863724189, guid: 4ca3628efcffd4f4e91edf7db85754c5,
+        type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 617390940}
+      objectReference: {fileID: 2019129909}
     - target: {fileID: 4941055119863724191, guid: 4ca3628efcffd4f4e91edf7db85754c5,
         type: 3}
       propertyPath: m_RootOrder
@@ -3885,7 +3890,7 @@ GameObject:
   - component: {fileID: 302051441}
   - component: {fileID: 302051443}
   - component: {fileID: 302051442}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4206,7 +4211,7 @@ GameObject:
   - component: {fileID: 310903864}
   - component: {fileID: 310903863}
   - component: {fileID: 310903862}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7221,7 +7226,7 @@ GameObject:
   - component: {fileID: 467114691}
   - component: {fileID: 467114690}
   - component: {fileID: 467114689}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8045,7 +8050,7 @@ GameObject:
   - component: {fileID: 525342310}
   - component: {fileID: 525342312}
   - component: {fileID: 525342311}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9827,7 +9832,7 @@ GameObject:
   - component: {fileID: 592702520}
   - component: {fileID: 592702519}
   - component: {fileID: 592702518}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10470,7 +10475,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 1559
+    m_Bits: 1558
   m_GroundCheck: {fileID: 1230068662}
   m_CeilingCheck: {fileID: 479020253}
   m_CrouchDisableCollider: {fileID: 0}
@@ -10521,7 +10526,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 617390933}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 13357a90f1b346a4c9166114b84fe36c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -12131,7 +12136,7 @@ GameObject:
   - component: {fileID: 739668960}
   - component: {fileID: 739668962}
   - component: {fileID: 739668961}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12240,7 +12245,7 @@ GameObject:
   - component: {fileID: 741434610}
   - component: {fileID: 741434609}
   - component: {fileID: 741434608}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12642,7 +12647,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 742666263}
+      objectReference: {fileID: 617390935}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b1d84680e73b4741ae840dcbfbf3d91, type: 3}
 --- !u!4 &742666263 stripped
@@ -17110,7 +17115,7 @@ GameObject:
   - component: {fileID: 1013533530}
   - component: {fileID: 1013533529}
   - component: {fileID: 1013533528}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17751,7 +17756,7 @@ GameObject:
   - component: {fileID: 1065422332}
   - component: {fileID: 1065422334}
   - component: {fileID: 1065422333}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18078,7 +18083,7 @@ GameObject:
   - component: {fileID: 1086844561}
   - component: {fileID: 1086844563}
   - component: {fileID: 1086844562}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18296,7 +18301,7 @@ GameObject:
   - component: {fileID: 1106177795}
   - component: {fileID: 1106177794}
   - component: {fileID: 1106177793}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18623,7 +18628,7 @@ GameObject:
   - component: {fileID: 1118368413}
   - component: {fileID: 1118368415}
   - component: {fileID: 1118368414}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21409,7 +21414,7 @@ GameObject:
   - component: {fileID: 1252489309}
   - component: {fileID: 1252489311}
   - component: {fileID: 1252489310}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26285,7 +26290,7 @@ GameObject:
   - component: {fileID: 1521619113}
   - component: {fileID: 1521619112}
   - component: {fileID: 1521619111}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26503,7 +26508,7 @@ GameObject:
   - component: {fileID: 1535021905}
   - component: {fileID: 1535021904}
   - component: {fileID: 1535021903}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27054,7 +27059,7 @@ GameObject:
   - component: {fileID: 1566139894}
   - component: {fileID: 1566139893}
   - component: {fileID: 1566139892}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27412,7 +27417,7 @@ GameObject:
   - component: {fileID: 1591937273}
   - component: {fileID: 1591937275}
   - component: {fileID: 1591937274}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29529,7 +29534,7 @@ GameObject:
   - component: {fileID: 1713602748}
   - component: {fileID: 1713602747}
   - component: {fileID: 1713602746}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29971,7 +29976,7 @@ GameObject:
   - component: {fileID: 1733344316}
   - component: {fileID: 1733344318}
   - component: {fileID: 1733344317}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30298,7 +30303,7 @@ GameObject:
   - component: {fileID: 1740585514}
   - component: {fileID: 1740585513}
   - component: {fileID: 1740585512}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30563,7 +30568,7 @@ GameObject:
   - component: {fileID: 1752028243}
   - component: {fileID: 1752028245}
   - component: {fileID: 1752028244}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31871,7 +31876,7 @@ GameObject:
   - component: {fileID: 1805572532}
   - component: {fileID: 1805572531}
   - component: {fileID: 1805572530}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33926,7 +33931,7 @@ GameObject:
   - component: {fileID: 1928483045}
   - component: {fileID: 1928483047}
   - component: {fileID: 1928483046}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tileset_7 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34280,7 +34285,7 @@ GameObject:
   - component: {fileID: 1946992679}
   - component: {fileID: 1946992681}
   - component: {fileID: 1946992680}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: nature-paltformer-tileset-16x16_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35973,6 +35978,12 @@ Transform:
   m_Father: {fileID: 991143393}
   m_RootOrder: 231
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2019129909 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4941055119863724185, guid: 4ca3628efcffd4f4e91edf7db85754c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 238988450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2020859004
 GameObject:
   m_ObjectHideFlags: 0
