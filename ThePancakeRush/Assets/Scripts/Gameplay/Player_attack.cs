@@ -9,6 +9,7 @@ public class Player_attack : MonoBehaviour
  	public AnimationClip animation;
  	private int Player = 8;
     private int Enemies = 10;
+    private bool playerIsDead = false;
 
  	public Transform punctDeAtac;
  	public float razaDeAtac = 0.5f;
@@ -48,7 +49,8 @@ public class Player_attack : MonoBehaviour
 
     	if(viataRamasa <= 0){
     		Moarte();
-            Destroy (gameObject, animation.length); 
+            Destroy (gameObject, animation.length);
+            playerIsDead = true; 
     	}
     }
 
@@ -93,5 +95,9 @@ public class Player_attack : MonoBehaviour
     	if(punctDeAtac == null) return;
 
     	Gizmos.DrawWireSphere(punctDeAtac.position, razaDeAtac);
+    }
+
+    public bool getDeathFlag(){
+        return this.playerIsDead;
     }
 }
