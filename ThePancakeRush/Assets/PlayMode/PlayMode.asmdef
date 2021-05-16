@@ -1,5 +1,5 @@
 {
-    "name": "EditModeTests",
+    "name": "PlayMode",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
@@ -9,9 +9,7 @@
         "ModelsScripts",
         "UiScripts"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

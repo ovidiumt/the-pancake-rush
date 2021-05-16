@@ -1,12 +1,12 @@
 {
-    "name": "PlayModeTests",
+    "name": "EditMode",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "CoreScripts",
         "GameplayScripts",
-        "ModelsScripts",
+        "CoreScripts",
         "MechanicsScripts",
+        "ModelsScripts",
         "UiScripts"
     ],
     "includePlatforms": [
