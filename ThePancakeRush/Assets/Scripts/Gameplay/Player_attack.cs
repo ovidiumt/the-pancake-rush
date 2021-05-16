@@ -19,13 +19,13 @@ public class Player_attack : MonoBehaviour
 
  	public float rataDeAtac = 2f;
  	float timpulPanaLaUrmatorulAtac = 0f;
- 	public Healthbar baraDeViata;
+ 	//public Healthbar baraDeViata;
  	public int viataRamasa;
  	public int viataMaxima = 500;
 
  	void Start(){
  		viataRamasa = viataMaxima;
- 		baraDeViata.SeteazaViataMaxima(viataMaxima);
+ 		//baraDeViata.SeteazaViataMaxima(viataMaxima);
  	}
 
 
@@ -43,7 +43,7 @@ public class Player_attack : MonoBehaviour
 
     public void esteLovit(int valoareLovitura){
     	viataRamasa -= valoareLovitura;
-    	baraDeViata.SeteazaViata(viataRamasa);
+    	//baraDeViata.SeteazaViata(viataRamasa);
 
     	animator.SetTrigger("esteLovit");
 
@@ -57,10 +57,10 @@ public class Player_attack : MonoBehaviour
     public void setLife(int value){
         if(viataRamasa + value < viataMaxima){
             viataRamasa += value;
-            baraDeViata.SeteazaViata(viataRamasa);
+            //baraDeViata.SeteazaViata(viataRamasa);
         }else{
             viataRamasa = viataMaxima;
-            baraDeViata.SeteazaViata(viataRamasa);
+            //baraDeViata.SeteazaViata(viataRamasa);
         }
     }
 
