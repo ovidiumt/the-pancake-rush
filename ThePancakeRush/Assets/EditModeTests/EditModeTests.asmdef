@@ -1,9 +1,27 @@
-﻿{
+{
     "name": "EditModeTests",
-    "optionalUnityReferences": [
-        "TestAssemblies"
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "CoreScripts",
+        "GameplayScripts",
+        "MechanicsScripts",
+        "ModelsScripts",
+        "UiScripts"
     ],
     "includePlatforms": [
         "Editor"
-    ]
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

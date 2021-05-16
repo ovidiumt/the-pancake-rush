@@ -2,7 +2,12 @@
     "name": "PlayModeTests",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "CoreScripts",
+        "GameplayScripts",
+        "ModelsScripts",
+        "MechanicsScripts",
+        "UiScripts"
     ],
     "includePlatforms": [
         "Editor"
