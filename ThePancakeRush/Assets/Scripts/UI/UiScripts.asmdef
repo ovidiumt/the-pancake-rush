@@ -4,9 +4,7 @@
         "Unity.TextMeshPro",
         "GameplayScripts"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

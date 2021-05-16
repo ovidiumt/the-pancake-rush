@@ -10,7 +10,7 @@ public class Bird_Shoot : MonoBehaviour
 
     public Transform firePoint;
     public GameObject bombPrefab;
-    Transform player;
+    public Transform player;
     Rigidbody2D rb;
 
     // Start is called before the first frame update

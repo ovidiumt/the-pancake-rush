@@ -13,7 +13,7 @@ public class Bird_hit : MonoBehaviour
 
     public Healthbar baraDeViataBird;
 	public int viataMaxima = 100;
-	int viataRamasa;
+	public int viataRamasa;
     // Start is called before the first frame update
     void Start()
     {
