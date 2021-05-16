@@ -18,4 +18,9 @@ public class Collectable : MonoBehaviour
         ScoreScript.scoreValue += 1;
         Destroy(gameObject);
     }
+
+    public int getScoreValue()
+    {
+        return ScoreScript.scoreValue;
+    }
 }
