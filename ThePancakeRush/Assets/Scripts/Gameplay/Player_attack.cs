@@ -23,7 +23,9 @@ public class Player_attack : MonoBehaviour
  	public int viataRamasa;
  	public int viataMaxima = 500;
 
- 	void Start(){
+ 	void Start()
+    {
+        playerIsDead = false;
  		viataRamasa = viataMaxima;
  		baraDeViata.SeteazaViataMaxima(viataMaxima);
  	}

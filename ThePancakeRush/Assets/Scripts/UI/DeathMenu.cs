@@ -9,27 +9,31 @@ public class DeathMenu : MonoBehaviour
   	public GameObject deathMenu;
   	public Transform player;
 
-  	void Start(){
+  	void Start()
+    {
   		deathMenu.SetActive(false);
+        Time.timeScale = 1f;
   	}
 
     // Update is called once per frame
     void Update()
     {
-       if(player.GetComponent<Player_attack>().getDeathFlag() == true){ 
-       	  deathMenu.SetActive(true);
-       	  Time.timeScale = 0f;
+       if(player.GetComponent<Player_attack>().getDeathFlag() == true)
+        {
+       	    deathMenu.SetActive(true);
+       	    Time.timeScale = 0f;
        	}
-       else Time.timeScale = 1f;
     }
 
-    public void Restart(){
-    	deathMenu.SetActive(false);
+    public void Restart()
+    {
+        deathMenu.SetActive(false);
     	SceneManager.LoadScene("Game");
-    	Time.timeScale = 1f;
+        Time.timeScale = 1f;
     }
 
-    public void LoadMenu(){
+    public void LoadMenu()
+    {
     	Time.timeScale = 1f;
     	SceneManager.LoadScene("Menu");
     }
