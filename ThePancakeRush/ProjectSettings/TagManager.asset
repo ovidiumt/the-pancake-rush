@@ -14,11 +14,11 @@ TagManager:
   - 
   - 
   - Player
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Tiles
+  - Enemies
+  - Projectiles
+  - Collectable
+  - Traps
   - 
   - 
   - 
